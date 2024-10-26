@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: 
+subtitle:
 
 profile:
   align: right
@@ -21,10 +21,9 @@ My research interests lie in numerically modeling biological principles for soft
 
 I also work with [Prof. Robert Katzschmann][prof_katzschmann] at the [Soft Robotics Laboratory][srl] (SRL) at ETH Zürich on energy-gradient based computational modeling of soft bodies, specifically biohybrid robots. I was a [Robotics Student Fellow][rsf] in SRL in summer 2024. During the (not-so) olden days of undergraduate school at [NTU][ntu], I worked on a range of topics from augmenting gas-turbine engine cooling (with [Dr. Chow Wai Tuck][dr_chow]), system identification for unmanned aerial vehicles and nanoparticle synthesis for treating Alzheimer's Disease.
 
-I am also a tennis player, and have been playing the game for almost 14 years now. I have played semi-pro, and also for the varsity in my time in Singapore. The game has taught me a lot in every aspect of life, and it has helped shape the person I am today. During my free time, I coach tennis as well. 
+I am also a tennis player, and have been playing the game for almost 14 years now. I have played semi-pro, and also for the varsity in my time in Singapore. The game has taught me a lot in every aspect of life, and it has helped shape the person I am today. During my free time, I coach tennis as well.
 
 I am always excited about discussing soft robots, computational modeling, biomechanics and new research directions. I am currently looking for Ph.D. positions at the intersection of modeling and soft robotics. If you are interested in my research, want to collaborate or simply have a chat (or play tennis), please do get in touch!
-
 
 [nus]: https://nus.edu.sg/
 [prof_laschi]: https://www.softroboticslab.info/people
