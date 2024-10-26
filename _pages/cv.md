@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /cv/
-title: Updated CV (last updated on 25th October, 2024)
+title: cv
 nav: true
 nav_order: 5
 ---
