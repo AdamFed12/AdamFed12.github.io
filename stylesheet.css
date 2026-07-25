@@ -52,6 +52,7 @@ h2 {
   width: 220px;
   height: 220px;
   position: relative;
+  overflow: hidden;
 }
 
 .two {
