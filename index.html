@@ -24,7 +24,7 @@
                   Adamya Singh Dhaker
                 </p>
                 <p>
-                   Hello! I am a PhD student at <a href="https://ethz.ch/en.html">ETH Zürich</a> and the <a href="https://is.mpg.de/en">Max Planck Institute for Intelligent Systems</a>, working with <a href="https://scholar.google.com/citations?hl=nl&user=Qe_XlMQAAAAJ&view_op=list_works&sortby=pubdate">Dr. Janneke Schwaner</a> (<a href="https://is.mpg.de/nom">Neuromechanics of Movement Group, MPI</a>) and <a href="https://srl.ethz.ch/the-group/robert-katzschmann.html">Prof. Robert Katzschmann</a> (<a href="https://srl.ethz.ch/">Soft Robotics Laboratory, ETH</a>). I have been awarded the <a href="https://learning-systems.org/">Max Planck-ETH Center for Learning Systems</a> doctoral fellowship to work on truly integrating biomechanical principles of passive mechanical adaptation in animals into soft robots to enhance their ‘embodied intelligence’ and reduce their active control requirements.                 </p>
+                   Hello! I am a PhD student at <a href="https://ethz.ch/en.html">ETH Zürich</a> and the <a href="https://is.mpg.de/en">Max Planck Institute for Intelligent Systems</a>, supervised by <a href="https://scholar.google.com/citations?hl=nl&user=Qe_XlMQAAAAJ&view_op=list_works&sortby=pubdate">Dr. Janneke Schwaner</a> (<a href="https://is.mpg.de/nom">Neuromechanics of Movement Group, MPI</a>) and <a href="https://srl.ethz.ch/the-group/robert-katzschmann.html">Prof. Robert Katzschmann</a> (<a href="https://srl.ethz.ch/">Soft Robotics Laboratory, ETH</a>). Supported by the <a href="https://learning-systems.org/">Max Planck-ETH Center for Learning Systems</a> doctoral fellowship, I work on truly integrating biomechanical principles of passive mechanical adaptation in animals into soft robots to enhance their ‘embodied intelligence’ and reduce their active control requirements, so that they can be made easier to manufacture and scale for various contact-rich environments.                 </p>
                 <p>
                    Prior to starting my doctoral work, I greatly enjoyed my time in sunny Singapore, where received an M.Eng in mechanical engineering at <a href="https://nus.edu.sg/">NUS</a>, and a B. Eng in aerospace engineering (minor in applied physics) at <a href="https://www.ntu.edu.sg/">NTU</a>. I was fortunate to work with <a href="https://cde.nus.edu.sg/me/staff/cecilia-laschi-2/">Prof. Cecilia Laschi</a> and <a href="https://cde.nus.edu.sg/me/staff/gianmarco-mengaldo/">Prof. Gianmarco Mengaldo</a> on high-fidelity modeling of octopus arm biomechanics. I also spent some time as an <a href="https://robotx.ethz.ch/education/robotics-student-fellowship/2024-Robotics-Student-Fellows.html">ETH Robotics Student Fellow</a> at the <a href="https://srl.ethz.ch/">Soft Robotics Laboratory, ETH Zürich</a>, working on a developing fluid-structure interaction framework for biohybrid robots. I deeply enjoyed collaborating <a href="https://scholar.google.com/citations?user=ymR4tW4AAAAJ&hl=en">Prof. Luca Dede’</a> and <a href="https://regazzoni.faculty.polimi.it">Prof. Francesco Regazzoni</a> as a visiting researcher at the <a href="https://mox.polimi.it/">MOX Laboratory, Politecnico di Milano</a>.                </p>
                 <p>
@@ -67,7 +67,7 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research Interests</h2>
                 <p>
-                I am broadly interested in investigating the biomechanical principles underlying passive adaptation that lends ‘mechanical’ intelligence to animals, so that we can transfer the learned mechanical principles to soft robots and reduce their motor control requirements. More specifically, I am intrigued by the musculoskeletal architectures of the legs of ground-running birds and how these architectures embed passive mechanical control in the leg during complex-terrain locomotion. I use a mix of biological dissections, computational modeling and hardware fabrication to test my hypotheses with such birds. I am also passionate about reproducibility and pedagogy of the science that I am fortunate enough to do.                 </p>
+                I am broadly interested in investigating the biomechanical principles underlying passive adaptation that lends ‘mechanical’ intelligence to animals, so that we can transfer the learned mechanical principles to soft robots and reduce their motor control during complex terrain locomotion. More specifically, I am intrigued by the musculoskeletal architectures of the legs of ground-running birds and how these architectures embed passive mechanical control in the leg during complex-terrain locomotion. I use a mix of biological dissections, computational modeling and hardware fabrication to test my hypotheses of such birds. I am also passionate about reproducibility and pedagogy of the science that I am fortunate enough to do.                 </p>
               </td>
             </tr>
           </tbody></table>
@@ -95,7 +95,7 @@
                 <span style="font-weight:bold;">Apr 30, 2025</span>
               </td>
               <td style="padding:8px 16px;width:85%;vertical-align:top">
-                Graduated from NUS with my master's degree with my thesis approved! Paper on high-fidelity octopus arm modeling coming soon!
+                Graduated from NUS with my master's degree and my thesis approved! Paper on high-fidelity octopus arm modeling coming soon!
               </td>
             </tr>
             <tr>
@@ -114,19 +114,21 @@
                 <h2>Projects</h2>
                 <tr onmouseout="lifex_stop()" onmouseover="lifex_start()">
                   <td style="padding:16px;width:30%;vertical-align:top">
-                    <div class="one">
-                      <div class="two" id='lifex_image'><video width=100% height=100% muted autoplay loop>
+                    <div class="one" style="height:84px">
+                      <div class="two" id='lifex_image' style="height:84px"><video width="220" height="84" style="display:block;object-fit:cover" muted autoplay loop playsinline>
                       <source src="images/lifex_video.mp4" type="video/mp4">
                       Your browser does not support the video tag.
                       </video></div>
-                      <img src='images/lifex_img.jpg' width="220">
+                      <img src='images/lifex_img.jpg' width="220" height="84" style="display:block;object-fit:cover">
                     </div>
                     <script type="text/javascript">
                       function lifex_start() {
                         document.getElementById('lifex_image').style.opacity = "1";
+                        document.querySelector('#lifex_image video').play();
                       }
                       function lifex_stop() {
                         document.getElementById('lifex_image').style.opacity = "0";
+                        document.querySelector('#lifex_image video').pause();
                       }
                       lifex_stop()
                     </script>
@@ -199,19 +201,21 @@
 
                 <tr onmouseout="cv_stop()" onmouseover="cv_start()">
                   <td style="padding:16px;width:30%;vertical-align:top">
-                    <div class="one">
-                      <div class="two" id='cv_image'><video width=100% height=100% muted autoplay loop>
+                    <div class="one" style="height:62px">
+                      <div class="two" id='cv_image' style="height:62px"><video width="220" height="62" style="display:block;object-fit:cover;object-position:bottom" muted autoplay loop playsinline>
                       <source src="images/cv_vid.mp4" type="video/mp4">
                       Your browser does not support the video tag.
                       </video></div>
-                      <img src='images/cv_img.jpg' width="220">
+                      <img src='images/cv_img.jpg' width="220" height="62" style="display:block;object-fit:cover">
                     </div>
                     <script type="text/javascript">
                       function cv_start() {
                         document.getElementById('cv_image').style.opacity = "1";
+                        document.querySelector('#cv_image video').play();
                       }
                       function cv_stop() {
                         document.getElementById('cv_image').style.opacity = "0";
+                        document.querySelector('#cv_image video').pause();
                       }
                       cv_stop()
                     </script>
@@ -234,19 +238,21 @@
 
                 <tr onmouseout="srl_f_stop()" onmouseover="srl_f_start()">
                   <td style="padding:16px;width:30%;vertical-align:top">
-                    <div class="one">
-                      <div class="two" id='srl_f_fsi_image'><video width=100% height=100% muted autoplay loop>
-                      <source src="images/velocity_magnitude.mp4" type="video/mp4">
+                    <div class="one" style="height:81px">
+                      <div class="two" id='srl_f_fsi_image' style="height:81px"><video width="220" height="81" style="display:block;object-fit:cover" muted autoplay loop playsinline>
+                      <source src="images/turek_hron_video.mp4" type="video/mp4">
                       Your browser does not support the video tag.
                       </video></div>
-                      <img src='images/srl_f_fsi_img.jpg' width="220">
+                      <img src='images/turek_hron_picture.png' width="220" height="81" style="display:block;object-fit:cover">
                     </div>
                     <script type="text/javascript">
                       function srl_f_start() {
                         document.getElementById('srl_f_fsi_image').style.opacity = "1";
+                        document.querySelector('#srl_f_fsi_image video').play();
                       }
                       function srl_f_stop() {
                         document.getElementById('srl_f_fsi_image').style.opacity = "0";
+                        document.querySelector('#srl_f_fsi_image video').pause();
                       }
                       srl_f_stop()
                     </script>
@@ -377,7 +383,7 @@
                   This website template has been borrowed, with gratitude, from this <a href="https://github.com/jonbarron/jonbarron_website">source code by Jon Barron</a>.
                 </p>
                 <p style="text-align:center;font-size:small;">
-                  Last Updated: Jul 2026
+                  Last Updated: October 2026
                 </p>
               </td>
             </tr>
